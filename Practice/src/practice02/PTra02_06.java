@@ -1,3 +1,5 @@
+
+
 package practice02;
 /*
  * PTra02_06.java
@@ -16,6 +18,9 @@ public class PTra02_06 {
 
 		// ★ 変数 x, y の値をリテラルの数字を使わずに入れ替えてください
 		// ※プログラムは何行書いても良いです
+		x = x+y;
+		y = x-y;
+		x = x-y;
 
 
 		// ここから下は修正しないでください
@@ -23,3 +28,4 @@ public class PTra02_06 {
 		System.out.println("y:" + y);	// 「y:10」が出力される
 	}
 }
+
