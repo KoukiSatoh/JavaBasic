@@ -12,10 +12,12 @@ public class PTra04_03 {
 		int random = 0;
 
 		// ★ ランダムで数値が生成された数値が2であった場合にプログラムが終了する条件式にしてください。
-		while () {
+		while (2 != random) {
+
 
 			// ★ ランダムで数字を生成するプログラムです。
 			// 下記の命令を実行すると変数randomに、0以上、変数limitNumber未満の数字がランダムで代入されます
+
 			random = new java.util.Random().nextInt(limitNumber);
 
 			System.out.println("ランダムで生成された数値：" + random);

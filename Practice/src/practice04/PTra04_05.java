@@ -30,6 +30,7 @@ public class PTra04_05 {
 			int myHand = Integer.parseInt(line);
 
 			System.out.print("相手の手は・・・・・");
+			System.out.println("");
 
 			// 下記の命令を実行すると変数cpuHandに、0以上、変数3未満の数字がランダムで代入されます
 			int cpuHand = new java.util.Random().nextInt(3);
@@ -44,23 +45,47 @@ public class PTra04_05 {
 			 *
 			 * ※ プログラムは何行書いても良いです
 			 */
+
+
+
 			if (cpuHand == 0) {
 				System.out.println("グー！");
-
+				if(myHand == 0) {
+					System.out.println("あいこ");
+				}else if(myHand == 1) {
+						System.out.println("負け");
+				}else {
+					System.out.println("勝ち");
+			    winFlg = true;
+				}
+				System.out.println("");
 
 
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
+				if(myHand == 0) {
+					System.out.println("勝ち");
+					winFlg = true;
+				}else if(myHand == 1) {
+						System.out.println("あいこ");
+				}else
+					System.out.println("負け");
 
-
+				System.out.println("");
 
 			} else {
 				System.out.println("パー！！");
-
-
+				if(myHand == 0) {
+					System.out.println("負け");
+				}else if(myHand == 1) {
+						System.out.println("勝ち");
+						winFlg = true;
+				}else
+					System.out.println("あいこ");
+				System.out.println("");
 
 			}
-
 		}
+
 	}
 }
