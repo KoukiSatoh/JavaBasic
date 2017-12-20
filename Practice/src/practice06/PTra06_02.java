@@ -1,4 +1,5 @@
 package practice06;
+
 /*
  * PTra06_02.java
  *   作成	LIKEIT	2017
@@ -11,14 +12,21 @@ public class PTra06_02 {
 
 		// ★ 20回繰り返しを行うfor文を記述してください
 		//-----for start
+		for(int i = 1; i <= 20; i++ ) {
+
+
 
 			// ★ 今何回目の処理なのかを出力してください
+			System.out.println(i + "回目の繰り返しです");
 
 
 			// ★ 奇数回のときには、「奇数」を出力してください
+			System.out.println((i % 2 == 1)+"奇数です" );
+			System.out.println(true+"奇数です" );
 
 
 
 		//-----for end
+		}
 	}
 }
