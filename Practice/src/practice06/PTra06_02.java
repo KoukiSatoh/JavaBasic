@@ -21,8 +21,9 @@ public class PTra06_02 {
 
 
 			// ★ 奇数回のときには、「奇数」を出力してください
-			System.out.println((i % 2 == 1)+"奇数です" );
-			System.out.println(true+"奇数です" );
+			if(i % 2 == 1) {
+			System.out.println("奇数です" );
+			}
 
 
 
