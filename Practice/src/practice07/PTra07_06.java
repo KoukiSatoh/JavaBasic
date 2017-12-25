@@ -15,7 +15,20 @@ public class PTra07_06 {
 				{70,8,90,1000}
 		};
 
-		// ★ 配列arrayに格納されている全ての数字の平均を出力してください
+
+		int sum = 0;
+		int count = 0;
+		for (int[] list : array) {
+
+			for (int i : list) {
+				sum += i;
+				count++;
+			}
+
+		}
+
+		System.out.println(sum / count);
+
 
 	}
 }
