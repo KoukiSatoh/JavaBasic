@@ -11,19 +11,19 @@ public class PTra07_06 {
 
 		// ★ ※2次元配列を用いています
 		int[][] array = {
-				{500,40,6},
-				{70,8,90,1000}
+				{500,40,6},//1
+				{70,8,90,1000}//2
 		};
 
 
 		int sum = 0;
 		int count = 0;
-		for (int[] list : array) {
+		for (int[] list : array) {//ここから
 
 			for (int i : list) {
 				sum += i;
 				count++;
-			}
+			}//ここまでがループ
 
 		}
 
