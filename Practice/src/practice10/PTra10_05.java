@@ -27,16 +27,14 @@ public class PTra10_05 {
 
 		// Carクラスを作成後に着手してください
 		// ★ Car型の変数carを宣言し、Carクラスのインスタンスを代入してください
-
+		Car car = new Car();
 
 		// ★ 変数carに格納されているインスタンスのserialNoフィールドに、10000を代入してください
-
-
+		car.serialNo = 1000;
 		// ★ 変数carに格納されているインスタンスのcolorフィールドに、"Red"を代入してください
-
-
+		car.color = "Red";
 		// ★ 変数carに格納されているインスタンスのgasolineフィールドに、50を代入してください
-
+		car.gasoline = 50;
 
 		// 目的地までの距離
 		final int distance = 300;
@@ -47,6 +45,25 @@ public class PTra10_05 {
 		 * ★ 目的地についた時点で「目的地にまでn時間かかりました。残りのガソリンは、xリットルです」を出力してください
 		 * ※n：runメソッドを実行した回数, xは残りのガソリンの数です
 		 */
+		int Adistance = 0;//　進んだ距離
+		int count = 0;//目的地までの時間
+		while(true) {
+			int randomnumber = car.run();//randomnumberはメソッドrunで生成されたランダムな数値が代入される
+			count++; //カウントは１ずつ増えていく
+			 Adistance += randomnumber; //Adistance = Adistance + randomnumbr
+			 						   //AdistanceはAdistanceにrandomnumbr(1~15の乱数)を足した値になる
+			 System.out.println(Adistance);//進んだ距離が増えているかチェック(Adistance= Advanced distance)
 
+			if(randomnumber == -1) {//Carクラスのgasolineが０以下になるとrandomnumberが-1を返すためのはず
+				System.out.println("目的地に到達できませんでした");
+				break;//gasolineが０以下になると、if文を抜けて「目的地に到達出来なかった」と出力される
+			}
+
+
+			if(distance <  Adistance) {//distanceよりAdistanceが大きくなったら条件をみたす。
+				System.out.println("目的地にまで"+count+"時間かかりました。残りのガソリンは、"+car.gasoline+"リットルです");
+				break;//distance <  Adistanceは　目的地についたら、if文を抜けて上の文を出力する動きをする
+			}
+		}
 	}
 }
