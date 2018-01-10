@@ -17,14 +17,14 @@ public class PTra11_03 {
 	 * ★ 処理は、クラスフィールドnumberに1を加算してください
 	 */
 
-	PTra11_03(){
-		this.number++;
+	PTra11_03(){//コントラクトさん
+		this.number++;//
 	}
 
 	public static void main(String[] args) {
 
 		// ★ sumメソッドを呼び出してください
-		PTra11_03 pTra11_03 = new PTra11_03();
+		PTra11_03 pTra11_03 = new PTra11_03();//コンストラクタさん（インスタンスが生成された直後に実行される）
 		pTra11_03.sum(2, 3);
 
 
@@ -34,5 +34,5 @@ public class PTra11_03 {
 		System.out.println("sumメソッドを呼び出しました。" + x + "＋" + y + "＝" + (x + y));
 
 		System.out.println("クラスフィールドnumber：" + this.number /* + ★ クラスフィールドnumberの出力をしてください */);
-	}
+	}												//実行結果は１になる。繰り返しはないので。
 }
