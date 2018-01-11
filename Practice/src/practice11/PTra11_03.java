@@ -17,6 +17,7 @@ public class PTra11_03 {
 	 * ★ 処理は、クラスフィールドnumberに1を加算してください
 	 */
 
+
 	PTra11_03(){//コントラクトさん
 		this.number++;//
 	}
@@ -24,8 +25,9 @@ public class PTra11_03 {
 	public static void main(String[] args) {
 
 		// ★ sumメソッドを呼び出してください
-		PTra11_03 pTra11_03 = new PTra11_03();//コンストラクタさん（インスタンスが生成された直後に実行される）
-		pTra11_03.sum(2, 3);
+
+		PTra11_03 ptra11_03 = new PTra11_03();//コンストラクタさん（インスタンスが生成された直後に実行される）
+		ptra11_03.sum(2, 3);
 
 
 	}
