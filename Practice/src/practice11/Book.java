@@ -31,6 +31,7 @@ public class Book {
 		this.publication = publication;
 	}
 
+
 	/** 本のタイトル */
 	String title;
 
