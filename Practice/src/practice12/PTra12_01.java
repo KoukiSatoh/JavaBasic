@@ -12,18 +12,19 @@ public class PTra12_01 {
 	public static void main(String[] args) {
 
 		/*
-		 * common.Studentにアクセサを追加し、
-		 * ★ フィールドのアクセス修飾子を外部クラスからのアクセスを禁止させるようにしてください
+		 * common.Studentにアクセサを追加し、//ok
+		 * ★ フィールドのアクセス修飾子を外部クラスからのアクセスを禁止させるようにしてください　//ok package privateを使用
 		 *
 		 * ★ 下記、インスタンスフィールドへのアクセスをアクセサ経由に変更してください
 		 */
-		Student student = new Student();
+		Student student = new Student();//インスタンス化
 		student.studentId = 10001;
 		student.studentName = "リゾーム太郎";
 		student.companyName = "株式会社リゾーム";
 		student.className = "Z教室";
 		student.mail = "rhizome@hogehoge.com";
 		student.password ="1qazxcvb";
+		//Studentメソッドの呼び出し
 
 		System.out.println("受講生ID　：" + student.studentId);
 		System.out.println("受講生名　：" + student.studentName);
@@ -31,5 +32,6 @@ public class PTra12_01 {
 		System.out.println("教室名　　：" + student.className);
 		System.out.println("メール　　：" + student.mail);
 		System.out.println("パスワード：" + student.password);
+
 	}
 }
