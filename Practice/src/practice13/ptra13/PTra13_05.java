@@ -6,10 +6,13 @@
  */
 package practice13.ptra13;
 
-public class PTra13_05 {
+import practice13.common.Item;
+
+public class PTra13_05 extends Item{
+
 
 	/*
-	 * ★ common.Itemクラスを作成してください
+	 * ★ common.Itemクラスを作成してください //ok
 	 *
 	 * フィールド
 	 * 		name	:	String

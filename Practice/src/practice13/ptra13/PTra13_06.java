@@ -13,7 +13,7 @@ public class PTra13_06 {
 	 * 	●HP, POWER, ENDURANCEはそれぞれ、（25, 10, 7）
 	 *
 	 * フィールド
-	 * 		equipment	:	common.Item
+	 * 		equipment	:	common.Item // 12様々なクラス機構の４ページ目
 	 * メソッド
 	 * 		attackメソッドをオーバーライドし、
 	 * 		powerに加えて、additionalDamage分を加算した値としてください
