@@ -24,7 +24,7 @@ public class PTra13_07 {
 
 		slime.setName("スライム");
 		superHero.setName("勇者（装備あり）");
-		// ★ Itemクラスのインスタンスを作成し、("こんぼう", 4）を¥にしてください
+		// ★ Itemクラスのインスタンスを作成し、("こんぼう", 4）にしてください
 		Item item = new Item();
 		item.setName("こんぼう");
 		item.setAdditionalDamagee(4);
