@@ -20,14 +20,12 @@ public class PTra16_03 {
 	public static void main(String[] args) {
 
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください
-		{
-		Object A = new Object() {
-		@Override
-		public String toString() {//親クラス（Objectクラス）のtoStringの処理
-			return "「PTra16_03#toString()の処理」";
-			}
-		};
-		System.out.println(A);
-		}
+		PTra16_03 PTra16_03 = new PTra16_03();
+		System.out.println(PTra16_03.toString());
+	}
+
+	public String toString() {
+		return super.toString() + "\nPTra16_03#toString()の処理";
 	}
 }
+
