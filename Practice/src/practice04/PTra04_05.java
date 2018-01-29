@@ -50,6 +50,8 @@ public class PTra04_05 {
 
 			if (cpuHand == 0) {
 				System.out.println("グー！");
+				
+				//勝敗判定
 				if(myHand == 0) {
 					System.out.println("あいこ");
 				}else if(myHand == 1) {
@@ -63,6 +65,8 @@ public class PTra04_05 {
 
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
+				
+				//勝敗判定
 				if(myHand == 0) {
 					System.out.println("勝ち");
 					winFlg = true;
@@ -75,6 +79,8 @@ public class PTra04_05 {
 
 			} else {
 				System.out.println("パー！！");
+				
+				//勝敗判定
 				if(myHand == 0) {
 					System.out.println("負け");
 				}else if(myHand == 1) {
