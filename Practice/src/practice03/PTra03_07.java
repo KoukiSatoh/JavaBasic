@@ -30,7 +30,19 @@ public class PTra03_07 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-		switch (num) {
+		if (num < 1 || num > 5) {
+			System.out.println("選択したのは,1～5以外です");
+		} else {
+			System.out.println(num);
+		}
+
+
+	}
+}
+
+
+// 自分が最初に書いたプログラム。
+/*		switch (num) {
 		case 1:
 			System.out.println(1);
 			break;
@@ -50,7 +62,4 @@ public class PTra03_07 {
 			System.out.println("選択したのは,1～5以外です");
 
 		}
-
-
-	}
-}
+*/

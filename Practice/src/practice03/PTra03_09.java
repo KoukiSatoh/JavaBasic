@@ -18,7 +18,7 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-		System.out.println("０～６までの数字を入力");
+		System.out.println("0～6の整数を入力してください");
 		int number = new java.util.Scanner(System.in).nextInt();
 
 		switch(number) {
@@ -45,6 +45,16 @@ public class PTra03_09 {
 			break;
 		default:
 			System.out.println("0～6の整数を入力してください");
+
 		}
 	}
 }
+
+
+//解答
+/**/
+
+
+
+
+
