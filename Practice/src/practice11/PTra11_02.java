@@ -28,3 +28,13 @@ public class PTra11_02 {
 
 	}
 }
+
+/*拡張for文での書き方
+ * 		for (Book book : bookList) {
+			if (book.tilte.indexOf(line) >= 0) {
+				System.out.println(book.dispBookInfo());
+				System.out.println("-----------------------------");
+			}
+		}
+ * */
+
