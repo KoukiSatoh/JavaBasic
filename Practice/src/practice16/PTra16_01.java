@@ -17,3 +17,8 @@ public class PTra16_01 {
     	System.out.println(dateStr);
     }
 }
+
+/* System.out.println(sdf.format(date));
+ * シスアウトする時に一緒にフォーマットしている
+ *
+*/
