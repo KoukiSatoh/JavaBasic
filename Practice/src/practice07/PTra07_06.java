@@ -29,6 +29,27 @@ public class PTra07_06 {
 
 		System.out.println(sum / count);
 
-
 	}
 }
+
+/*解答
+ * int index = 0;
+		double total = 0;
+		for (int i = 0; i < array.length; i++) {
+			for (int j = 0; j < array[i].length; j++) {
+				total += array[i][j];
+				index++;
+			}
+		}
+		System.out.println("合計値：" + total);
+		System.out.println("値数：" + index);
+
+		System.out.println("平均値：" + (total / index));
+	}
+}
+
+出力
+合計値：1714.0
+値数：7
+平均値：244.85714285714286
+*/

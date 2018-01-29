@@ -13,7 +13,7 @@ public class PTra07_04 {
 		int[] trump = new int[52];
 
 		// ★ 配列trumpに、[1,2,3,4,5,・・・・,52] を代入してください
-		for(int i = 0; i < 52;i++) {
+		for(int i = 0; i <  trump.length;i++) {//lengthを使うと他の人が見たときすぐに分かる 
 			trump[i] = 1+i;
 		}
 

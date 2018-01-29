@@ -16,7 +16,6 @@ public class PTra07_03 {
 		for(int i = keyword.length-1; i >= 0; i--) {
 			System.out.println(keyword[i] + " ");
 		}
-		System.out.println();
 	}
 }
 
