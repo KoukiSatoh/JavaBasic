@@ -56,7 +56,8 @@ public class PTra04_05 {
 					System.out.println("あいこ");
 				}else if(myHand == 1) {
 						System.out.println("負け");
-				}else {
+				}
+				else {
 					System.out.println("勝ち");
 			    winFlg = true;
 				}
@@ -95,3 +96,57 @@ public class PTra04_05 {
 
 	}
 }
+
+//上はじゃんけんするだけのプログラム
+//下は選択肢以外が入力されると判定出来ないと表示される。
+
+/*if (cpuHand == 0) {
+				System.out.println("グー！");
+
+				// 勝ち負け判定
+				if (myHand == 2) {
+					System.out.println("あなたの勝ち！");
+					winFlg = true;
+				} else if (myHand == 1) {
+					System.out.println("あなたの負け！もう一勝負！");
+				} else if (myHand == 0) {
+					System.out.println("あいこ！もう一勝負！");
+				} else {
+					System.out.println("判定出来ない！もう一回！");
+				}
+
+			} else if (cpuHand == 1) {
+				System.out.println("チョキ！！");
+
+				// 勝ち負け判定
+				if (myHand == 0) {
+					System.out.println("あなたの勝ち！");
+					winFlg = true;
+				} else if (myHand == 2) {
+					System.out.println("あなたの負け！もう一勝負！");
+				} else if (myHand == 1) {
+					System.out.println("あいこ！もう一勝負！");
+				} else {
+					System.out.println("判定出来ない！もう一回！");
+				}
+
+			} else {
+				System.out.println("パー！！");
+
+				// 勝ち負け判定
+				if (myHand == 1) {
+					System.out.println("あなたの勝ち！");
+					winFlg = true;
+				} else if (myHand == 0) {
+					System.out.println("あなたの負け！もう一勝負！");
+				} else if (myHand == 2) {
+					System.out.println("あいこ！もう一勝負！");
+				} else {
+					System.out.println("判定出来ない！もう一回！");
+				}
+
+			}
+		}
+	}
+}
+*/
