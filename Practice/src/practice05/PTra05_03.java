@@ -43,13 +43,13 @@ public class PTra05_03 {
 			 */
 			switch (line) {
 			case "山":
-				System.out.println(mountain++);
+				mountain++;
 				break;
 			case "川":
-				System.out.println(river++);
+				river++;
 				break;
 			case "海":
-				System.out.println(ocean++);
+				ocean++;
 				break;
 			default:
 				System.out.println("無効票です");
@@ -60,9 +60,9 @@ public class PTra05_03 {
 			index++;
 		}
 		// ★ 変数mountain、river、oceanの票数をそれぞれ出力してください
-		System.out.println(mountain + "票");
-		System.out.println(river + "票");
-		System.out.println(ocean + "票");
+		System.out.println("山：" + mountain + "票");
+		System.out.println("川：" + river + "票");
+		System.out.println("海：" + ocean + "票");
 
 	}
 }
