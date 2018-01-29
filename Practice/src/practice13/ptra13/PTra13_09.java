@@ -55,60 +55,6 @@ public class PTra13_09 {
 					System.out.println("部署："+employees.getDepartmentNm());
 					System.out.println("部署人数："+employees.getDepartmentCnt());
 					System.out.println();
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				//		Employee employee2 = new Employee();
-//		Employee employee3 = new Employee();
-//
-//
-//
-//		employee2.setUserNm(NAMEDATA[1]);
-//		employee2.setMail(MAILDATA[1]);
-//		employee2.setPassword(PASSDATA[1]);
-//		employee2.setDepartmentNm(QUATERDATA[0][1]);
-//		employee2.setDepartmentCnt(Integer.parseInt(QUATERDATA[1][1]));
-//
-//
-//		employee3.setUserNm(NAMEDATA[2]);
-//		employee3.setMail(MAILDATA[2]);
-//		employee3.setPassword(PASSDATA[2]);
-//		employee3.setDepartmentNm(QUATERDATA[0][2]);
-//		employee3.setDepartmentCnt(Integer.parseInt(QUATERDATA[1][2]));
-//
-//		System.out.println(employee.getUserNm());
-//		System.out.println(employee.getMail());
-//		System.out.println(employee.getPassword());
-//		System.out.println(employee.getDepartmentNm());
-//		System.out.println(employee.getDepartmentCnt());
-//
-////		System.out.println(employee2.getUserNm());
-////		System.out.println(employee2.getMail());
-//		System.out.println(employee2.getPassword());
-//		System.out.println(employee2.getDepartmentNm());
-//		System.out.println(employee2.getDepartmentCnt());
-//
-//		System.out.println(employee3.getUserNm());
-//		System.out.println(employee3.getMail());
-//		System.out.println(employee3.getPassword());
-//		System.out.println(employee3.getDepartmentNm());
-//		System.out.println(employee3.getDepartmentCnt());
-
+					}
 	}
 }

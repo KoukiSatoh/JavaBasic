@@ -49,3 +49,40 @@ class PTra13_04{
 
 	}
 }
+
+/*
+ * boolean heroWin = true;
+		while (true) {
+			System.out.println(hero.getName() + "の攻撃");
+			int heroAttack = hero.attack();
+			if (slime.damage(heroAttack)) {
+				System.out.println(slime.getName() + "は倒れた・・・\n");
+				break;
+			}
+
+			System.out.println(slime.getName() + "の攻撃");
+			int slimeAttack = slime.attack();
+			if (hero.damage(slimeAttack)) {
+				System.out.println(hero.getName() + "は倒れた・・・\n");
+				heroWin = false;
+				break;
+			}
+		}
+
+		// 勝利した方の出力を行ってください。「○○は■■との戦闘に勝利した」
+		if (heroWin) {
+			System.out.println(hero.getName() + "は" + slime.getName() + "との戦闘に勝利した");
+		} else {
+			System.out.println(slime.getName() + "は" + hero.getName() + "との戦闘に勝利した");
+		}
+	}
+}
+
+出力結果
+勇者の攻撃
+スライムの攻撃
+勇者の攻撃
+スライムは倒れた・・・
+
+勇者はスライムとの戦闘に勝利した
+ */
