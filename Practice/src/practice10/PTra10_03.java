@@ -34,10 +34,10 @@ public class PTra10_03 {
 		String[] lineAry = line.split(",",0);
 
 
-		int id = Integer.parseInt(lineAry[0]);
+
 		// ★ 配列にした値を、usの各フィールドに代入してください
 		// ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
-		us.userId = id;
+		us.userId = Integer.parseInt(lineAry[0]);
 		us.userNm = lineAry[1];
 		us.mail = lineAry[2];
 		us.password = lineAry[3];

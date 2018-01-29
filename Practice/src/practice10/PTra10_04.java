@@ -32,11 +32,11 @@ public class PTra10_04 {
 			// ★ 変数lineに格納されている値を','で区切り、配列にしてください（Stringクラスのメソッドを使用します）
 			String[] lineAry = line.split(",",0);
 
-			int id = Integer.parseInt(lineAry[0]);
+
 			// ★ 配列にした値を、users[カウント]の各フィールドに代入してください
 			// ★ ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
 			users[i] = new User();
-			users[i].userId =id;
+			users[i].userId =Integer.parseInt(lineAry[0]);
 			users[i].userNm = lineAry[1];
 			users[i].mail = lineAry[2];
 			users[i].password = lineAry[3];
@@ -52,3 +52,14 @@ public class PTra10_04 {
 		}
 	}
 }
+
+/*
+ * 拡張for文での書き方
+ * for (User us : users) {
+			System.out.println(us.userId);
+			System.out.println(us.userNm);
+			System.out.println(us.mail);
+			System.out.println(us.password);
+		}
+	}
+*/
