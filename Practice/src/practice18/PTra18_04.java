@@ -40,7 +40,6 @@ public class PTra18_04 {
 
 				roster.add(player);
 
-
 			}
 		} catch (FileNotFoundException e) {//fileが見つからない
             System.out.println("ファイルが見つかりません");
