@@ -13,7 +13,7 @@ public class PTra06_01 {
 		for (int i = 0; i < 10 ; i++) {
 
 			// ★ 変数iを2乗した値を出力してください
-			System.out.println(i * 2);
+			System.out.println(i * i);
 
 		}
 	}
