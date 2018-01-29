@@ -23,8 +23,8 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 		int price = ((coffee*2) + snack)*108/100;
-		moneyInHand =moneyInHand-price;
-		System.out.println(moneyInHand);
+		moneyInHand = moneyInHand - price;
+		System.out.println("所持金：" +moneyInHand);
 
 
 	}
