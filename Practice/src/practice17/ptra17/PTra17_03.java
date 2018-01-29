@@ -18,7 +18,8 @@ public class PTra17_03 {
 	public static void quiz() {
 		final String[] question = {
 				"Javaの予約語となっている単語は次のうちどれか。\n1:static\t2:Sample\t3:java",
-				"次の中からMicrosoftの製品はどれか。\n1:GitHub\t2:サクラエディタ\t3:SQL Server", "Javaが誕生した年は？（西暦で答えなさい）"
+				"次の中からMicrosoftの製品はどれか。\n1:GitHub\t2:サクラエディタ\t3:SQL Server", 
+				"Javaが誕生した年は？（西暦で答えなさい）"
 		};
 		final int[] answer = { 1, 3, 1995 };
 
