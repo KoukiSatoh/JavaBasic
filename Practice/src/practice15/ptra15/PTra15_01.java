@@ -25,7 +25,7 @@ public class PTra15_01 {
 
 		for (Course course : courseList) {
 			System.out.println(course.getCourseName());
-		
+
 
 		}
 	}

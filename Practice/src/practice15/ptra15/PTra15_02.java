@@ -28,7 +28,5 @@ public class PTra15_02 {
 			System.out.println(curriculum);
 		}
 
-//わからんので、一旦後回しで先に進む。
-
 	}
 }
