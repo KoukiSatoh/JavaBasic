@@ -13,7 +13,7 @@ public class PTra01_06 {
 		String str;
 
 		// ★ 変数 str に自分の名前を代入してください
-		str ="佐藤光樹";
+		str ="佐藤　光樹";
 
 		// ★ 変数 str の中身を出力してください
 		System.out.println(str);
