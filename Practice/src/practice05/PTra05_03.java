@@ -28,7 +28,9 @@ public class PTra05_03 {
 		while (index < 5) {
 
 			System.out.println((index + 1) + "人目");
+			System.out.println();
 			System.out.println("山、川、海でどこに行きたいか入力してください。");
+
 
 			// コマンドプロンプトで入力した文字列が変数lineに代入されます
 			String line = scanner.nextLine();

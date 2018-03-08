@@ -12,13 +12,13 @@ public class PTra02_09 {
 		int height = 23;	// 高さ
 
 		// ★ 変数quadrangleに、四角形の面積を代入してください
-		double quadrangle =  ((double)length*height);
+		double quadrangle =  ((double)length*height);//int型のlengthとheightをdoubleでキャストして型変換している
 
 		// ★ 変数quadrangleを出力してください
 		System.out.println("四角形の面積：" +quadrangle);
 
 		// ★ 変数triangleに、三角形の面積を代入してください
-		double triangle = (double)length*height/2;
+		double triangle = (double)length*height/2; // doubleキャスト
 
 		// ★ 変数triangleを出力してください
 		System.out.println("三角形の面積：" +triangle);

@@ -20,7 +20,7 @@ public class PTra05_02 {
 		// ★ 変数inputを宣言して、変数lineを数値に変換した値を代入してください
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになって良いです
 		int input;
-		input = Integer.parseInt(line);
+		input = Integer.parseInt(line);//文字列を数値にintに変換している
 		/*
 		 *  ★ 以下の仕様で、switch文を記述してください
 		 *
